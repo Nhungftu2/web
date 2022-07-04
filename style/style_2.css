@@ -1,0 +1,48 @@
+/* style 1 for tablet Trên tablet (độ rộng vùng hiển thị >= 768px và < 992px): hiện dạng 2 cột*/
+.menu_top{
+    text-transform: uppercase;
+    background-color:  rgb(74, 74, 126);
+    font-size: 90%;
+    color: white;
+    height:auto;
+}
+ul li a{
+    color: rgb(227, 222, 222);
+}
+
+.menu_top_ul_li{
+    padding: 10px 20px 10px 20px;
+}
+.menu_top_ul:first-child{
+    padding: 10px 20px 10px 0px;
+}
+.box{
+    padding: 20px;
+}
+.box.border_bottom{
+    border-bottom: 1px solid rgb(121, 121, 127);
+}
+div.main_destop{
+    display:none;
+}
+.box_pic{
+    display: flex;
+    display: inline;
+}
+.main_tablet{
+    width:100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.img{
+    padding: 20px 20px 20px 0px;
+    width: 45%;
+    box-sizing: content-box;
+}
+.footer_item{
+    display:block;
+    border-bottom: 0.25px solid rgb(75, 75, 76);
+}
+
+
+
